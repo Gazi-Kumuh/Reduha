@@ -1,0 +1,104 @@
+body{
+background-attachment: fixed;
+}
+
+.zagolovokzag{
+    text-align: center;
+}
+
+
+.zagolovok{
+    text-align: center;
+    font-family: Impact;
+    font-style: italic;
+    font-size: 35px;
+    color: #000000;
+    background: #f4f4f4; /* Цвет фона */
+    padding: 20px;
+    border: 2px solid #000000;
+    display: inline-block;
+}
+
+
+.podzagpod{
+    text-align: center;
+}
+
+.podzag{
+    font-family: Impact;
+    font-style: italic;
+    padding: 20px; /* Поля */
+    background: #f4f4f4; /* Цвет фона */
+    border: 2px solid #000000; /* Параметры рамки */
+    text-align: center;
+    display: inline-block;
+ 
+}
+
+
+
+
+.rasuliovnesh{
+    text-align: center;
+}
+
+.don1rasuliocontent{
+    padding: 20px; /* Поля */
+    background: #ffffff; /* Цвет фона */
+    border: 2px solid #000000; /* Параметры рамки */
+    display: inline-block;
+}
+
+
+
+
+
+.Konsilieri1IbraContent{
+    padding: 20px; /* Поля */
+    text-align: center;
+    background: #ffffff; /* Цвет фона */
+    border: 2px solid #000000; /* Параметры рамки */
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.Capo1IsaContent{
+    padding: 20px; /* Поля */
+    text-align: center;
+    background: #ffffff; /* Цвет фона */
+    border: 2px solid #000000; /* Параметры рамки */
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+.Capo1StasContent{
+    padding: 20px; /* Поля */
+    text-align: center;
+    background: #ffffff; /* Цвет фона */
+    border: 2px solid #000000; /* Параметры рамки */
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.Capo1ZaurContent{
+    padding: 20px; /* Поля */
+    text-align: center;
+    background: #ffffff; /* Цвет фона */
+    border: 2px solid #000000; /* Параметры рамки */
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
