@@ -2,18 +2,21 @@ body{
 background-attachment: fixed;
 }
 
-.zagolovokzag{
+ @font-face {
+    font-family: Kankin;
+    src: url(kankin.ttf);
+ }
+
+ .zagolovokzag{
     text-align: center;
 }
-
-
 .zagolovok{
     text-align: center;
     font-family: Impact;
     font-style: italic;
     font-size: 35px;
     color: #000000;
-    background: #f4f4f4; /* Цвет фона */
+    background: #b9b9b9; /* Цвет фона */
     padding: 20px;
     border: 2px solid #000000;
     display: inline-block;
@@ -28,7 +31,7 @@ background-attachment: fixed;
     font-family: Impact;
     font-style: italic;
     padding: 20px; /* Поля */
-    background: #f4f4f4; /* Цвет фона */
+    background: #b9b9b9; /* Цвет фона */
     border: 2px solid #000000; /* Параметры рамки */
     text-align: center;
     display: inline-block;
@@ -44,9 +47,10 @@ background-attachment: fixed;
 
 .don1rasuliocontent{
     padding: 20px; /* Поля */
-    background: #ffffff; /* Цвет фона */
+    background: #b9b9b9; /* Цвет фона */
     border: 2px solid #000000; /* Параметры рамки */
     display: inline-block;
+    
 }
 
 
@@ -56,43 +60,118 @@ background-attachment: fixed;
 .Konsilieri1IbraContent{
     padding: 20px; /* Поля */
     text-align: center;
-    background: #ffffff; /* Цвет фона */
+    background: #b9b9b9; /* Цвет фона */
     border: 2px solid #000000; /* Параметры рамки */
     display: inline-block;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .Capo1IsaContent{
     padding: 20px; /* Поля */
     text-align: center;
-    background: #ffffff; /* Цвет фона */
+    background: #b9b9b9; /* Цвет фона */
     border: 2px solid #000000; /* Параметры рамки */
     display: inline-block;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 
 .Capo1StasContent{
     padding: 20px; /* Поля */
     text-align: center;
-    background: #ffffff; /* Цвет фона */
+    background: #b9b9b9; /* Цвет фона */
     border: 2px solid #000000; /* Параметры рамки */
     display: inline-block;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right:30px;
+    margin-left: 30px;
 }
 
 .Capo1ZaurContent{
     padding: 20px; /* Поля */
     text-align: center;
-    background: #ffffff; /* Цвет фона */
+    background: #b9b9b9; /* Цвет фона */
     border: 2px solid #000000; /* Параметры рамки */
     display: inline-block;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
+
+.zagolovokhushet{
+    text-align: center;
+}
+
+.zagolovokhushet1{
+    text-align: center;
+    font-family: impact;
+    font-style: italic;
+    font-size: 55px;
+    color: #000000;
+    background: #b9b9b9; /* Цвет фона */
+    padding: 20px;
+    border: 2px solid #000000;
+    display: inline-block;
+}
+
+
+.AbuMafiozi{
+    padding: 10px; /* Поля */
+    background: #b9b9b9; /* Цвет фона */
+    text-align: center;
+    border: 2px solid #000000; /* Параметры рамки */
+    display: inline-block;
+    margin-left: 530px;
+}
+
+
+.KhadjiMafiozi{
+    padding: 10px; /* Поля */
+    background: #b9b9b9; /* Цвет фона */
+    text-align: center;
+    border: 2px solid #000000; /* Параметры рамки */
+    display: inline-block;
+    margin-left: 320px;
+}
+
+.perehod1{
+    text-align: right;
+}
+.perehod2{
+    text-align: center;
+}
+.shine-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #e9d200;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f9f9f9;
+    transition: .2s ease-in-out;
+  }
+  .shine-button:before {
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    left: -75px;
+    transform: skewX(-45deg);
+    font-size: larger;
+  }
+  .shine-button:hover {
+    background: #f5d103;
+    color: #000000;
+  }
+  .shine-button:hover:before {
+    left: 150px;
+    transition: .5s ease-in-out;
+  }
 
 
 
